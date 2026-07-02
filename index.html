@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>TASK 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task 1</title>
 
 <style>
 
@@ -12,18 +14,18 @@
 }
 
 body{
-    background:white;
     display:flex;
     justify-content:center;
     align-items:center;
     height:100vh;
+    background:#fff;
 }
 
 main{
     width:420px;
-    background:white;
     border:2px solid #444;
     padding:8px;
+    background:#fff;
 }
 
 header{
@@ -35,7 +37,7 @@ header{
 
 .blue{
     height:40px;
-    background:#1fb7e8;
+    background:#19bde9;
     border:1px solid #666;
     margin-bottom:8px;
 }
@@ -47,24 +49,24 @@ header{
 }
 
 article{
-    width:60%;
+    flex:2;
 }
 
 .yellow{
     height:55px;
-    background:#f6bb55;
+    background:#f7bc57;
     border:1px solid #666;
     margin-bottom:8px;
 }
 
 .orange{
     height:55px;
-    background:#ff8a42;
+    background:#ff8b43;
     border:1px solid #666;
 }
 
 aside{
-    width:40%;
+    flex:1;
     background:#eb4fb5;
     border:1px solid #666;
 }
@@ -85,21 +87,21 @@ footer{
 
 <header></header>
 
-<nav class="blue"></nav>
+<div class="blue"></div>
 
-<nav class="middle">
+<div class="middle">
 
     <article>
 
-        <nav class="yellow"></nav>
+        <div class="yellow"></div>
 
-        <nav class="orange"></nav>
+        <div class="orange"></div>
 
     </article>
 
     <aside></aside>
 
-</nav>
+</div>
 
 <footer></footer>
 
