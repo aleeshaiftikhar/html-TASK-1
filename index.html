@@ -1,110 +1,108 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
+    
+    <title>TASK 1</title>
 
-<title>Task 1</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: white;
+        }
 
-<style>
+        main {
+            width: 800px;
+            border: 3px solid black;
+            padding: 20px;
+            box-sizing: border-box;
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
 
-body{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
-    background:#fff;
-}
+        header {
+            height: 85px;
+            background: red;
+            border: 2px solid black;
+        }
 
-main{
-    width:420px;
-    border:2px solid #444;
-    padding:8px;
-    background:#fff;
-}
+        nav.top {
+            height: 75px;
+            background: #20b8d4;
+            border: 2px solid black;
+        }
 
-header{
-    height:40px;
-    background:red;
-    border:1px solid #666;
-    margin-bottom:8px;
-}
+        article {
+            display: flex;
+            gap: 20px;
+        }
 
-.blue{
-    height:40px;
-    background:#19bde9;
-    border:1px solid #666;
-    margin-bottom:8px;
-}
+        article.left {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
 
-.middle{
-    display:flex;
-    gap:8px;
-    margin-bottom:8px;
-}
+        article.left header {
+            height: 120px;
+            background: #ffc15a;
+            border: 2px solid black;
+        }
 
-article{
-    flex:2;
-}
+        article.left nav {
+            height: 125px;
+            background: #ff9147;
+            border: 2px solid black;
+        }
 
-.yellow{
-    height:55px;
-    background:#f7bc57;
-    border:1px solid #666;
-    margin-bottom:8px;
-}
+        aside {
+            width: 40%;
+            height: 265px;
+            background: #ef55b5;
+            border: 2px solid black;
+        }
 
-.orange{
-    height:55px;
-    background:#ff8b43;
-    border:1px solid #666;
-}
-
-aside{
-    flex:1;
-    background:#eb4fb5;
-    border:1px solid #666;
-}
-
-footer{
-    height:40px;
-    background:gray;
-    border:1px solid #666;
-}
-
-</style>
-
+        footer {
+            height: 75px;
+            background: gray;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 
 <body>
 
-<main>
+    <main>
 
-<header></header>
+        <header></header>
 
-<div class="blue"></div>
+        <nav class="top"></nav>
 
-<div class="middle">
+        <article>
 
-    <article>
+            <article class="left">
 
-        <div class="yellow"></div>
+                <header></header>
 
-        <div class="orange"></div>
+                <nav></nav>
 
-    </article>
+            </article>
 
-    <aside></aside>
+            <aside></aside>
 
-</div>
+        </article>
 
-<footer></footer>
+        <footer></footer>
 
-</main>
+    </main>
 
 </body>
+
 </html>
